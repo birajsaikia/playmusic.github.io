@@ -19,8 +19,64 @@ R.loop = false;
 let V  = new Audio("./V.wav");
 V.loop = false;
 
-function push(){
-    B.pause()
+var button = document.getElementsByClassName('button');
+
+for (let i = 0; i < button.length; i++) {
+    button[i].addEventListener('click', function (){
+        var value = this.getAttribute('data-value');
+        console.log(value);
+        if(value =="B"){
+            B.loop = true;
+            B.play()
+            B.loop = false;
+            
+        }
+        else if(value =="E"){
+            E.loop = true;
+            E.play()
+            E.loop = false;
+        }
+        else if(value =="F"){
+            F.loop = true;
+            F.play()
+            F.loop = false;
+        }
+        else if(value =="G"){
+            G.loop = true;
+            G.play()
+            G.loop = false;
+        }
+        else if(value =="H"){
+            H.loop = true;
+            H.play()
+            H.loop = false;
+        }
+        else if(value =="I"){
+            I.loop = true;
+            I.play()
+            I.loop = false;
+        }
+        else if(value =="J"){
+            J.loop = true;
+            J.play()
+            J.loop = false;
+        }
+        else if(value =="K"){
+            K.loop = true;
+            K.play()
+            K.loop = false;
+        }
+        else if(value =="R"){
+            R.loop = true;
+            R.play()
+            R.loop = false;
+        }
+        else if(value =="V"){
+            V.loop = true;
+            V.play()
+            V.loop = false;
+        }
+});
 }
 
 document.addEventListener('keydown', function (event){
