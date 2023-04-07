@@ -1,0 +1,64 @@
+#body1{
+    height: 1300px;
+    width: 1800px;
+    margin-left: 20%;
+    /* border: 1px solid black; */
+    background-image: url(./dramkit.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    
+}
+.button{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(183, 225, 225);
+    border: 2px solid rgb(93, 204, 235);
+}
+#B{
+    display: flex;
+    margin-bottom: -50px;
+    margin-left: 400px;
+}
+#E{
+    margin-left: 300px;
+}
+
+#F{
+    margin-left: 150px;
+}
+
+#G{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+#H{
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+#I{
+    margin-left: 720px;
+}
+
+#J{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+#K{
+    margin-left: 800px;
+    margin-top: -50px;
+}
+
+#R{
+    margin-left: 400px;
+    margin-top: -50px;
+} 
+
+#V{
+    margin-left: 300px;
+    /* margin-top: -50px; */
+}
